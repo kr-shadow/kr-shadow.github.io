@@ -7,4 +7,28 @@ available on the GitHub @kanripo account.
 The files are presented in a modified form here to make using the
 texts for Natural Language Processing (NPL) easier. 
 
+The text files will be regularily updated from the source
+repositories.
 
+** Format of the texts
+
+All markup, including page and line indicators are removed. The third
+line after title and date gives the source and revision number of the
+file, this can be used to recover such information and other metadata
+if this turns out to be necessary.
+
+The texts show the following characteristics:
+
+ - "*" at the start of line indicator the start of a text section
+   (mostly relevant to KR6 texts)
+ - "(" and ")" indicate start and end of intralinear insertsions,
+   which usually constitute a separate text flow out of band with the
+   main text.
+ - All representations of non-representable characters have been
+   replaced with ad-hoc character codes from the Unicode Private Use
+   Area. A list of such representations as generated through the
+   conversion process is in gaiji.txt. The purpose of this way of
+   handling such characters is to make them distinguishable and make
+   it possible to calculate characteristics.  A program should not
+   depend on the stability of these codepoints across updates to the
+   files here.
