@@ -1,0 +1,10 @@
+# kr-shadow.github.io
+#+TITLE: Shadow of @kanripo
+
+The repositories in this account provide a snapshot of the files
+available on the GitHub @kanripo account.
+
+The files are presented in a modified form here to make using the
+texts for Natural Language Processing (NPL) easier. 
+
+

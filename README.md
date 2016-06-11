@@ -1,1 +1,0 @@
-# kr-shadow.github.io
